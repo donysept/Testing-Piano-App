@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Audio Settings">
+        <SeekBarPreference
+            android:key="volume"
+            android:title="Volume"
+            android:defaultValue="50" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Lesson Settings">
+        <ListPreference
+            android:key="difficulty"
+            android:title="Default Difficulty"
+            android:entries="@array/difficulty_levels"
+            android:entryValues="@array/difficulty_values" />
+    </PreferenceCategory>
+</PreferenceScreen>
