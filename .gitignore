@@ -1,0 +1,30 @@
+# Gradle files
+.gradle
+.gradle/
+build/
+*.apk
+*.aab
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+bin/
+gen/
+out/
+
+# Kotlin
+.kotlin/
+
+# IDE
+.vscode/
+*.swp
+*.swo
